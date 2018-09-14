@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom';
 
 class RightSideBar extends Component {
   render() {
@@ -10,66 +11,50 @@ class RightSideBar extends Component {
               <h3>Categories</h3>
               <ul className="cat-list">
                 <li>
-                  <a href="#">
+                  <Link to="/category/govt-jobs">
                     Finance <span className="num-posts">4,287 Jobs</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="category/it-jobs">
                     Techonologies <span className="num-posts">4,256 Jobs</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
-                    Art/Design
+                  <Link to="category/fresher-jobs">
+                    Freshers
                     <span className="num-posts">3,245 Jobs</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
-                    Science <span className="num-posts">4,256 Jobs</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Education Training{" "}
-                    <span className="num-posts">4,560 Jobs</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Logistics <span className="num-posts">3,256 Jobs</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Food Services <span className="num-posts">1,256 Jobs</span>
-                  </a>
-                </li>
+                  <Link to="category/bank-jobs">
+                    Banking <span className="num-posts">4,256 Jobs</span>
+                  </Link>
+                </li>               
               </ul>
             </div>
             <div className="inner-box">
               <h3>Job Status</h3>
               <ul className="cat-list">
                 <li>
-                  <a href="#">
-                    Full Time <span className="num-posts">12,256 Jobs</span>
-                  </a>
+                  <Link to="/permanent">
+                    Permanent <span className="num-posts">12,256 Jobs</span>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
-                    Part Time <span className="num-posts">6,510 Jobs</span>
-                  </a>
+                  <Link to="/contract">
+                    Contract <span className="num-posts">6,510 Jobs</span>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="/freelancer">
                     Freelancer <span className="num-posts">1,171 Jobs</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
-                    Internship <span className="num-posts">876 Jobs</span>
-                  </a>
+                  <Link to="/freshers">
+                    Freshers <span className="num-posts">876 Jobs</span>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -77,40 +62,31 @@ class RightSideBar extends Component {
               <h3>Locations</h3>
               <ul className="cat-list">
                 <li>
-                  <a href="#">
-                    New York <span className="num-posts">4,197 Jobs</span>
-                  </a>
+                  <Link to="/location/hyderabad">
+                    Hyderabad <span className="num-posts">4,197 Jobs</span>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
-                    San Francisco <span className="num-posts">2,256 Jobs</span>
-                  </a>
+                  <Link to="/location/chennai">
+                    Chennai <span className="num-posts">2,256 Jobs</span>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
-                    San Diego <span className="num-posts">3,278 Jobs</span>
-                  </a>
+                  <Link to="/location/bangalore">
+                    Bangalore <span className="num-posts">3,278 Jobs</span>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
-                    Los Angeles <span className="num-posts">5,294 Jobs</span>
-                  </a>
+                  <Link to="/delhi">
+                    Delhi <span className="num-posts">5,294 Jobs</span>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
-                    Chicago <span className="num-posts">1,746 Jobs</span>
-                  </a>
+                  <Link to="/mumbai">
+                    Mumbai <span className="num-posts">1,746 Jobs</span>
+                  </Link>
                 </li>
-                <li>
-                  <a href="#">
-                    Houston <span className="num-posts">871 Jobs</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    New Orleans <span className="num-posts">2,163 Jobs</span>
-                  </a>
-                </li>
+                
               </ul>
             </div>
           </div>

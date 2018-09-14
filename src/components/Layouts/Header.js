@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom';
 
 class Header extends Component {
   render() {
@@ -6,7 +7,7 @@ class Header extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img
               src={assetsPath + "img/logo.png"}
               width="30"
@@ -14,7 +15,7 @@ class Header extends Component {
               alt=""
             />
             &nbsp;Careers ERA
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -29,25 +30,25 @@ class Header extends Component {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/">
                   Home
                   <span className="sr-only">(current)</span>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/fresher-jobs">
                   Fresher Jobs
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/it-jobs">
                   IT Jobs
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/govt-jobs">
                   Govt Jobs
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

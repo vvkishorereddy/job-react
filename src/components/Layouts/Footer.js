@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom';
 
 class Footer extends Component {
   d = new Date();
@@ -11,22 +12,22 @@ class Footer extends Component {
             <div className="row">
               <div className="col-md-2 col-sm-6 col-xs-12">
                 <div className="widget">
-                  <h3 className="block-title">Cities</h3>
+                  <h3 className="block-title">Location</h3>
                   <ul className="menu">
                     <li>
-                      <a href="#">Hyderabad</a>
+                      <Link to="/location/hyderabad">Hyderabad</Link>
                     </li>
                     <li>
-                      <a href="#">Bangalore</a>
+                      <Link to="/location/bangalore">Bangalore</Link>
                     </li>
                     <li>
-                      <a href="#">Chennai</a>
+                      <Link to="/location/chennai">Chennai</Link>
                     </li>
                     <li>
-                      <a href="#">Delhi</a>
+                      <Link to="/location/delhi">Delhi</Link>
                     </li>
                     <li>
-                      <a href="#">All Cities</a>
+                      <Link to="/location">All Cities</Link>
                     </li>
                   </ul>
                 </div>
@@ -36,19 +37,19 @@ class Footer extends Component {
                   <h3 className="block-title">Category</h3>
                   <ul className="menu">
                     <li>
-                      <a href="#">Infirmation & Technology</a>
+                      <Link to="/category/it">Infirmation & Technology</Link>
                     </li>
                     <li>
-                      <a href="#">Banking</a>
+                      <Link to="/category/banking">Banking</Link>
                     </li>
                     <li>
-                      <a href="#">Pharma</a>
+                      <Link to="/category/pharma">Pharma</Link>
                     </li>
                     <li>
-                      <a href="#">Civil</a>
+                      <Link to="/category/civil">Civil</Link>
                     </li>
                     <li>
-                      <a href="#">All Categories</a>
+                      <Link to="/category">All Categories</Link>
                     </li>
                   </ul>
                 </div>
@@ -58,19 +59,19 @@ class Footer extends Component {
                   <h3 className="block-title">Type</h3>
                   <ul className="menu">
                     <li>
-                      <a href="#">Permanent</a>
+                      <Link to="/permanent">Permanent</Link>
                     </li>
                     <li>
-                      <a href="#">Contract</a>
+                      <Link to="/contract">Contract</Link>
                     </li>
                     <li>
-                      <a href="#">Freshers</a>
+                      <Link to="/freshers">Freshers</Link>
                     </li>
                     <li>
-                      <a href="#">Experienced</a>
+                      <Link to="/experienced">Experienced</Link>
                     </li>
                     <li>
-                      <a href="#">Freelance</a>
+                      <Link to="/freelancer">Freelance</Link>
                     </li>
                   </ul>
                 </div>
@@ -80,19 +81,19 @@ class Footer extends Component {
                   <h3 className="block-title">Pages</h3>
                   <ul className="menu">
                     <li>
-                      <a href="#">About Us</a>
+                      <Link to="/about">About Us</Link>
                     </li>
                     <li>
-                      <a href="#">Faq</a>
+                      <Link to="/faq">Faq</Link>
                     </li>
                     <li>
-                      <a href="#">License</a>
+                      <Link to="/privacy-policy">Privacy Policy</Link>
                     </li>
                     <li>
-                      <a href="#">Terms & Conditions</a>
+                      <Link to="/terms-conditions">Terms & Conditions</Link>
                     </li>
                     <li>
-                      <a href="#">Contact</a>
+                      <Link to="/contact">Contact</Link>
                     </li>
                   </ul>
                 </div>
@@ -101,19 +102,19 @@ class Footer extends Component {
                 <div className="widget">
                   <h3 className="block-title">Follow Us</h3>
                   <div className="bottom-social-icons social-icon">
-                    <a className="twitter" href="https://twitter.com/GrayGrids">
+                    <a className="twitter" href="https://twitter.com/careersera">
                       <i className="fa fa-twitter" />
                     </a>
                     <a
                       className="facebook"
-                      href="https://web.facebook.com/GrayGrids"
+                      href="https://web.facebook.com/careersera"
                     >
                       <i className="fa fa-facebook" />
                     </a>
-                    <a className="youtube" href="https://instagram.com/">
+                    <a className="youtube" href="https://instagram.com/careersera">
                       <i className="fa fa-instagram" />
                     </a>
-                    <a className="linkedin" href="https://www.linkedin.com/">
+                    <a className="linkedin" href="https://www.linkedin.com/careersera">
                       <i className="fa fa-linkedin" />
                     </a>
                   </div>
