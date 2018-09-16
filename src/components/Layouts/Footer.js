@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 class Footer extends Component {
   d = new Date();
@@ -102,7 +102,10 @@ class Footer extends Component {
                 <div className="widget">
                   <h3 className="block-title">Follow Us</h3>
                   <div className="bottom-social-icons social-icon">
-                    <a className="twitter" href="https://twitter.com/careersera">
+                    <a
+                      className="twitter"
+                      href="https://twitter.com/careersera"
+                    >
                       <i className="fa fa-twitter" />
                     </a>
                     <a
@@ -111,10 +114,16 @@ class Footer extends Component {
                     >
                       <i className="fa fa-facebook" />
                     </a>
-                    <a className="youtube" href="https://instagram.com/careersera">
+                    <a
+                      className="youtube"
+                      href="https://instagram.com/careersera"
+                    >
                       <i className="fa fa-instagram" />
                     </a>
-                    <a className="linkedin" href="https://www.linkedin.com/careersera">
+                    <a
+                      className="linkedin"
+                      href="https://www.linkedin.com/careersera"
+                    >
                       <i className="fa fa-linkedin" />
                     </a>
                   </div>
@@ -122,14 +131,18 @@ class Footer extends Component {
                     Join our mailing list to stay up to date and get notices
                     about our Latest Jobs!
                   </p>
-                  <form className="subscribe-box">
-                    <input type="text" placeholder="Your email" />
+                  <div className="input-group">
                     <input
-                      type="submit"
-                      className="btn-system"
-                      value="Subscribe"
+                      type="text"
+                      className="form-control"
+                      placeholder="email"
                     />
-                  </form>
+                    <div className="input-group-append">
+                      <button className="btn btn-app" type="button">
+                        <i className="fa fa-envelope" />
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
